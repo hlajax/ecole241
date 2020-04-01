@@ -12,10 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require main
+ *= require vendor
+ *= require base
  */
- @import "main";
- @import "vendor";
- @import "base";
+
  body{
  	font-family: 'Montserrat', ;
  	font-size: 18px;
